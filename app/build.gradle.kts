@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "xyz.hihasan.quotes"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "xyz.hihasan.quotes"
         minSdk = 24
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
