@@ -23,8 +23,6 @@ fun QuoteListScreen(data: Array<QuoteModel>, OnClick: () -> Unit) {
             style = MaterialTheme.typography.headlineLarge,
 
             )
-        QuoteList(data = data) {
-            OnClick()
-        }
+        QuoteList(data = data, OnClick)
     }
 }
